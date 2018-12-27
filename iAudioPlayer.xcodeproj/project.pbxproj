@@ -12,6 +12,8 @@
 		FBA2636021C5852100B86923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA2635E21C5852100B86923 /* Main.storyboard */; };
 		FBA2636221C5852200B86923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA2636121C5852200B86923 /* Assets.xcassets */; };
 		FBA2636521C5852200B86923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA2636321C5852200B86923 /* LaunchScreen.storyboard */; };
+		FBA2636D21C585FB00B86923 /* 26685864_1956727941023180_223044321606003342_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA2636C21C585FA00B86923 /* 26685864_1956727941023180_223044321606003342_o.jpg */; };
+		FBA2636F21C5873000B86923 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBA2636E21C5873000B86923 /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FBA2636121C5852200B86923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA2636421C5852200B86923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA2636621C5852200B86923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA2636C21C585FA00B86923 /* 26685864_1956727941023180_223044321606003342_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26685864_1956727941023180_223044321606003342_o.jpg; sourceTree = "<group>"; };
+		FBA2636E21C5873000B86923 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,20 @@
 				FBA2635C21C5852100B86923 /* ViewController.swift */,
 				FBA2635E21C5852100B86923 /* Main.storyboard */,
 				FBA2636121C5852200B86923 /* Assets.xcassets */,
+				FBA2636C21C585FA00B86923 /* 26685864_1956727941023180_223044321606003342_o.jpg */,
 				FBA2636321C5852200B86923 /* LaunchScreen.storyboard */,
 				FBA2636621C5852200B86923 /* Info.plist */,
+				FBA263B321C5A0BF00B86923 /* Songs */,
 			);
 			path = iAudioPlayer;
+			sourceTree = "<group>";
+		};
+		FBA263B321C5A0BF00B86923 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				FBA2636E21C5873000B86923 /* song.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA2636D21C585FB00B86923 /* 26685864_1956727941023180_223044321606003342_o.jpg in Resources */,
 				FBA2636521C5852200B86923 /* LaunchScreen.storyboard in Resources */,
 				FBA2636221C5852200B86923 /* Assets.xcassets in Resources */,
 				FBA2636021C5852100B86923 /* Main.storyboard in Resources */,
+				FBA2636F21C5873000B86923 /* song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
